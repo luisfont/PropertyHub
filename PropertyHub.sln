@@ -7,6 +7,38 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyHub.WebApi", "Prope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyHub.WebApi.Tests", "PropertyHub.WebApi.Tests\PropertyHub.WebApi.Tests.csproj", "{2FBF2F46-9BEB-4823-9A06-6FDAF696FF0D}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PropertyHub.Web", "PropertyHub.Web\", "{6FAAA3C1-989E-4BBF-BF5C-BE92D4E7E064}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55254"
+		Debug.AspNetCompiler.PhysicalPath = "PropertyHub.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55254\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55254"
+		Release.AspNetCompiler.PhysicalPath = "PropertyHub.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55254\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55254"
+		SlnRelativePath = "PropertyHub.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{43B357FB-023E-4195-988D-6FFC53640FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C63D572E-B294-4959-B98F-AD46ADD78BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyHub.Models", "PropertyHub.Models\PropertyHub.Models.csproj", "{36A03357-4A34-43E8-813A-31E8DE9FA540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{2EBBA632-DC66-4F08-836E-5B0F003D3138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyHub.DAL", "PropertyHub.DAL\PropertyHub.DAL.csproj", "{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +53,25 @@ Global
 		{2FBF2F46-9BEB-4823-9A06-6FDAF696FF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FBF2F46-9BEB-4823-9A06-6FDAF696FF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FBF2F46-9BEB-4823-9A06-6FDAF696FF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAAA3C1-989E-4BBF-BF5C-BE92D4E7E064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAAA3C1-989E-4BBF-BF5C-BE92D4E7E064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAAA3C1-989E-4BBF-BF5C-BE92D4E7E064}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAAA3C1-989E-4BBF-BF5C-BE92D4E7E064}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{36A03357-4A34-43E8-813A-31E8DE9FA540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A03357-4A34-43E8-813A-31E8DE9FA540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A03357-4A34-43E8-813A-31E8DE9FA540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A03357-4A34-43E8-813A-31E8DE9FA540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FBF2F46-9BEB-4823-9A06-6FDAF696FF0D} = {43B357FB-023E-4195-988D-6FFC53640FED}
+		{36A03357-4A34-43E8-813A-31E8DE9FA540} = {C63D572E-B294-4959-B98F-AD46ADD78BF6}
+		{7971115A-EA2F-4C66-AD3D-FE4FABBE2404} = {2EBBA632-DC66-4F08-836E-5B0F003D3138}
 	EndGlobalSection
 EndGlobal

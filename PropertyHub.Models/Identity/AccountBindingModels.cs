@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
 
-namespace PropertyHub.WebApi.Models
+namespace PropertyHub.Models.Identity
 {
     // Models used as parameters to AccountController actions.
 

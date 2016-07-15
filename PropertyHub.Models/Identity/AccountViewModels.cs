@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace PropertyHub.WebApi.Models
+namespace PropertyHub.Models.Identity
 {
     // Models returned by AccountController actions.
 
