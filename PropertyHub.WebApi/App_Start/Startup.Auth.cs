@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using PropertyHub.Models.Identity;
+using PropertyHub.DAL;
 using PropertyHub.WebApi.Providers;
 using System;
 

@@ -312,6 +312,10 @@
     <Content Include="Scripts\jquery-3.0.0.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PropertyHub.DAL\PropertyHub.DAL.csproj">
+      <Project>{7971115A-EA2F-4C66-AD3D-FE4FABBE2404}</Project>
+      <Name>PropertyHub.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PropertyHub.Models\PropertyHub.Models.csproj">
       <Project>{36a03357-4a34-43e8-813a-31e8de9fa540}</Project>
       <Name>PropertyHub.Models</Name>
